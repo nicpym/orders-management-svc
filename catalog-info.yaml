@@ -21,6 +21,7 @@ spec:
   system: connect-demo
   dependsOn:
     - resource:default/team-a-cluster
+    - resource:default/orders-db
   providesApis:
     - orders-management-svc
 ---
